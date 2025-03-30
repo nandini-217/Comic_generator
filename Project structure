@@ -1,0 +1,26 @@
+comic-crafter-ai/
+│
+├── streamlit_app/               # Streamlit version
+│   ├── comic_generator.py       # Main application file
+│   └── requirements.txt         # Python dependencies
+│
+├── flask_react_app/             # Flask+React version
+│   ├── backend/                 # Flask API
+│   │   ├── app.py               # Flask application
+│   │   └── requirements.txt     
+│   └── frontend/                # React frontend
+│       ├── src/
+│       │   └── components/      # React components
+│       └── package.json         # Frontend dependencies
+│
+├── fastapi_nextjs/              # FastAPI+Next.js version
+│   ├── backend/                 # FastAPI
+│   └── frontend/                # Next.js
+│
+├── edge_deployment/             # ONNX optimized version
+│   ├── onnx_models/             # Converted ONNX models
+│   └── edge_server.py           # Lightweight server
+│
+├── models/                      # Model files (if not downloaded)
+├── outputs/                     # Generated comics storage
+└── README.md                    # This file
